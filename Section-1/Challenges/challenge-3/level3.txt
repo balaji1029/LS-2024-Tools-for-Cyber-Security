@@ -1,2 +1,0 @@
-flag{REDACTED}
-echo "I am not fine:("
