@@ -1,3 +1,5 @@
+# Flag: flag{f34r1355_5ud0ku_c0nqu3r0r}
+
 import subprocess
 from solve_sudoku import Node
 import re
@@ -32,5 +34,3 @@ for k in range(840):
                 line = process.stdout.readline()
 while (line := process.stdout.readline()):
     print(line.decode().strip())
-
-# Flag: flag{f34r1355_5ud0ku_c0nqu3r0r}
